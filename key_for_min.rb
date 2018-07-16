@@ -14,5 +14,5 @@ name_hash.collect do |thing , thingy|
       thing
   end
 end
-return name_hash["thing"]
+return name_hash["#{thing}"]
 end
