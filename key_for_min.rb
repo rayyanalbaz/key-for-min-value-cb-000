@@ -8,11 +8,11 @@ def key_for_min_value(name_hash)
   end
 
   smallest = 121212
-
 name_hash.collect do |key,value|
-  if thingy < smallest
-      thing
+
+  if value < smallest
+      return key
   end
 end
-return name_hash["#{thing}"]
+return
 end
