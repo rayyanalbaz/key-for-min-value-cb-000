@@ -13,6 +13,7 @@ name_hash.collect do |key,value|
   if value < smallest
       smallest = value
   end
-  return key
+
 end
+return key
 end
