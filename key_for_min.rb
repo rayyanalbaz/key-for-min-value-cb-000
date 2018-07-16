@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
   end
 
   smallest = 121212
-
+  thingkey = ""
 name_hash.collect do |thing , thingy|
   if thingy < smallest
       thing
